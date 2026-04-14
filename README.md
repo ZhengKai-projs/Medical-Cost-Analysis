@@ -46,22 +46,6 @@ A medical insurance dataset containing patient demographic and cost information 
 
 ---
 
-## 📈 Visualisations
-
-### Scatterplot: Age vs Medical Charges
-![Scatterplot](visuals/scatter_age_charges.png)
-> Positive correlation between age and charges. Older individuals consistently incur higher medical costs, likely due to increased prevalence of age-related health conditions.
-
-### Box Plot: Medical Charges by Region
-![Box Plot](visuals/boxplot_charges_region.png)
-> Southwest has the lowest median charges; Northeast the highest. Regional variation may reflect differences in healthcare pricing, service availability, and lifestyle-related health trends.
-
-### Bar Chart: Average Charges by Number of Children
-![Bar Chart](visuals/bar_children_charges.png)
-> 3 dependents are associated with the highest average charges ($15,355.32); 5 dependents the lowest ($8,786.04). No clear trend, suggesting dependents alone are not a reliable predictor of charges.
-
----
-
 ## 🔍 Analytics Approach
 
 **Data Preprocessing**
@@ -77,6 +61,22 @@ A medical insurance dataset containing patient demographic and cost information 
 - Encoded categorical features and split data into training and test sets
 - Trained a decision tree classifier with max depth constraint to prevent overfitting
 - Tree splits on Gini impurity to identify the most informative features at each node
+
+---
+
+## 📈 Visualisations
+
+### Scatterplot: Age vs Medical Charges
+![Scatterplot](visuals/scatter_age_charges.png)
+> Positive correlation between age and charges. Older individuals consistently incur higher medical costs, likely due to increased prevalence of age-related health conditions.
+
+### Box Plot: Medical Charges by Region
+![Box Plot](visuals/boxplot_charges_region.png)
+> Southwest has the lowest median charges; Northeast the highest. Regional variation may reflect differences in healthcare pricing, service availability, and lifestyle-related health trends.
+
+### Bar Chart: Average Charges by Number of Children
+![Bar Chart](visuals/bar_children_charges.png)
+> 3 dependents are associated with the highest average charges ($15,355.32); 5 dependents the lowest ($8,786.04). No clear trend, suggesting dependents alone are not a reliable predictor of charges.
 
 ---
 
